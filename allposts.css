@@ -5,6 +5,10 @@ div {
 	
 }
 
+.container {
+	margin-top: 100px;
+}
+
 .top-banner {
 	overflow: hidden;
 	padding-top: 35px;
@@ -65,18 +69,8 @@ div {
 
 }
 
-.container {
-	margin-top: 120px;
-}
-
-
-.hotel-pics {
-	height: 565px;
-	width: 350px;
-}
-
 .text-country {
- 	padding-top: 30px;
+ 	padding-top: 15px;
 	padding-bottom: 10px;
  	font-family: 'Libre Baskerville', serif;
 	font-size: 20px !important;
@@ -96,13 +90,14 @@ div {
 	color: black !important;
 
  }
+ .hotel-pics {
+	height: 400px;
+	width: 400px;
+}
 
- .text-blog {
- 	padding-top: 20px;
- 	padding-bottom: 20px;
- 	font-size: 17px;
- }
-
+.row2 {
+	/*margin-top: 5px;*/
+}
 
  .bottom-nav {
  	bottom: 0;
