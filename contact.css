@@ -1,5 +1,5 @@
 div {
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
 }
@@ -64,22 +64,18 @@ div {
 	margin-top: 95px;
 }
 
-.img-box {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%;
+.hotel-pics{
+	height: 500px;
+	margin-bottom: 25px;
 }
 
-.contact-info {
+
+.contact-form {
 	font-size: 15px;
 	font-weight: 700 !important;
-	list-style-type: none !important;
-	padding-top: 30px;
-	margin: auto;
+	margin-top: 100px;
 	text-align: center;
 	letter-spacing: 2px;
-	width: 50%;
 }
 
 a {
