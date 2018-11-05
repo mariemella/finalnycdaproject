@@ -123,3 +123,15 @@ div {
 	display: inline-block;
 
 }
+
+@media (max-width: 960px){
+
+	.top-banner .all-posts{
+		display: none;
+	}
+
+	.top-banner .book-stay{
+		display: none;
+	}
+
+	}

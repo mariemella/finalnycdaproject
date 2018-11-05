@@ -14,38 +14,34 @@
 	<div class="top-banner container-fluid">
 		<a class="name-blog" href="#home">EN CASA</a>
 		<a class="all-posts" href="#allposts">ALL POSTS</a>
-		<a class="book-stay" href="#bookyourstay">BOOK YOUR STAY</a>
+		<a class="book-stay" href="#bookyourstay">SUBSCRIBE</a>
 	</div>
 	
 
 <div class="container">
 	<div class="row row1">
 		<div class="col-6">
-			<img class="hotel-pics" src="11beachphotoshop.jpg" style="width:100%">
+			<img class="hotel-pics" src="thenedsecond.jpg" style="width:100%">
 		</div>
 
-	<div class="col-6">
-		<form action="action_page.php" class="contact-form">
-
+	<div class="col-sm-12 col-md-6">
+	<div id="contact">
     <label for="name">Name</label><br>
-    <input type="text" id="name" name="name" placeholder="Your name..">
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
     <br><br>
-    <label for="email">Email </label><br>
-    <input type="text" id="email" name="email" placeholder="Your email..">
+    <label for="email">Email</label><br>
+    <input type="text" id="email" name="email" placeholder="Your email.." required>
     <br><br>
 
-    <!--<label for="country"></label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>-->
-
-    <label for="subject">Subject</label><br>
+    <label for="subject">Message</label><br>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:500px width:600px"></textarea>
     <br><br>
-    <input type="submit" value="Submit">
-  </form>
+    <button id="btn">Submit</button>
+    <br><br></div>
+    <div class="result">
+    <p id="result"></p>
+	</div>
+
 		</div>
 	</div>	
 </div>

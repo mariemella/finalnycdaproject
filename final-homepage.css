@@ -1,5 +1,5 @@
 div {
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	font-family: 'Libre Baskerville', serif;
 	text-align: center;
 	
@@ -73,6 +73,21 @@ div {
 .hotel-pics {
 	height: 565px;
 	width: 350px;
+	background: url("thenedphotoshop.jpg") no-repeat;
+}
+
+.hotel-pics:hover {
+	backgorund: url("thenedsecond.jpg") no-repeat;
+}
+
+.img-top3 {
+	height: 565px;
+	width: 350px;
+	
+}
+
+.hotel-pics:hover .img-top3{
+	display: inline !important;
 }
 
 .text-country {
