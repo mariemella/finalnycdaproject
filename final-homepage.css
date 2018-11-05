@@ -1,7 +1,7 @@
 div {
 	border: 1px solid black;
-	font-family: 'Libre Baskerville', serif;
-	text-align: center;
+	font-family: 'Libre Baskerville', serif;/*
+	text-align: center;*/
 	
 }
 
@@ -12,6 +12,8 @@ div {
 	top: 0;
 	width: 100%;
 	z-index: 2;
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
 
 }
 
@@ -26,7 +28,7 @@ div {
 	text-decoration:none !important;
 	color: black !important;
 	position: relative;
-	left: 39px;
+	left: 29px;
 
 }
 
@@ -51,6 +53,8 @@ div {
 	display: inline-block;
 	text-decoration:none !important;
 	color: black !important;
+	background: none !important;
+	border: none !important;
 }
 .top-banner .all-posts:hover {
 	text-decoration: none !important;
@@ -65,30 +69,73 @@ div {
 
 }
 
+
+.form-popup{
+	display: none;
+	position: fixed;
+	top: 60px;
+	right: 15px;
+	z-index: 9;
+}
+
+.form-container{
+	max-width: 500px;
+	padding: 15px;
+	background-color: white;
+	border: 1px solid black !important;
+	font-family: 'Lato', sans-serif !important;
+	font-size: 23px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.form-container input[type=text]{
+	width: 100%;
+	background: white;
+	border: 2px solid black !important;
+	margin: 5px 0 22px 0;
+	padding: 12px;
+	font-size: 12px;
+
+}
+
+.form-container .btn{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+	font-size: 13px;
+}
+
+.form-container .btn:hover{
+	text-decoration: none !important;
+	border-bottom: 3px solid black !important;
+	display: inline-block;
+}
+
+#result {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 15px;
+
+}
+
+
 .container {
 	margin-top: 120px;
 }
 
 
-.hotel-pics {
+img {
 	height: 565px;
 	width: 350px;
-	background: url("thenedphotoshop.jpg") no-repeat;
 }
 
-.hotel-pics:hover {
-	backgorund: url("thenedsecond.jpg") no-repeat;
-}
-
-.img-top3 {
+#box1 {
 	height: 565px;
 	width: 350px;
-	
 }
 
-.hotel-pics:hover .img-top3{
-	display: inline !important;
-}
 
 .text-country {
  	padding-top: 30px;
@@ -116,6 +163,9 @@ div {
  	padding-top: 20px;
  	padding-bottom: 20px;
  	font-size: 17px;
+ 	font-family: 'Libre Baskerville', serif;
+ 	text-align: center;
+
  }
 
 
@@ -124,6 +174,8 @@ div {
  	width: 100%;
  	padding-top: 50px;
  	padding-bottom: 15px;
+ 	font-family: 'Lato', sans-serif !important;
+ 	text-align: center;
  }
 
  .bottom-nav .bottom-tabs {
@@ -143,3 +195,16 @@ div {
 	display: inline-block;
 
 }
+
+
+@media (max-width: 960px){
+
+.top-banner .all-posts{
+	display: none;
+}
+
+.top-banner .book-stay{
+	display: none;
+}
+
+	}

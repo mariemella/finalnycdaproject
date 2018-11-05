@@ -12,12 +12,27 @@
 </head>
 <body>
 	<div class="top-banner container-fluid">
-		<a class="name-blog" href="#home">EN CASA</a>
+		<a class="name-blog" href="#home">TBD</a>
 		<a class="all-posts" href="#allposts">ALL POSTS</a>
-		<a class="book-stay" href="#bookyourstay">SUBSCRIBE</a>
+		<button class="book-stay" onclick="openForm()">SUBSCRIBE</button>
+
+	<div class="form-popup" id="myForm">
+  	<form class="form-container">
+    <div class="subscribe">SUBSCRIBE TO OUR NEWSLETTER</div>
+ 
+    <label for="email"></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <button type="submit" class="btn" id="enter">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    <div class="result">
+    <p id="result"></p>
 	</div>
+  </form>
+</div>
 
 
+	</div>
 <div class="container">
 <div class="row row1">
 	<div class="col-sm-12 col-md-4">
@@ -88,6 +103,6 @@
 	<a class="bottom-tabs" href="#contact">CONTACT</a>
 </div>
 
-<script type="text/javascript" src="final-homepage.js"></script>
+<script type="text/javascript" src="allposts.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 div {
 	/*border: 1px solid black;*/
 	font-family: 'Libre Baskerville', serif;
-	text-align: center;	
+		
 }
 
 .container-fluid {
@@ -16,6 +16,7 @@ div {
 	top: 0;
 	width: 100%;
 	z-index: 2;
+	text-align: center;	
 
 }
 
@@ -74,6 +75,7 @@ div {
  	width: 100%;
  	padding-top: 50px;
  	padding-bottom: 15px;
+ 	text-align: center;	
  }
 
  .bottom-nav .bottom-tabs {

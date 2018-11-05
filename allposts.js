@@ -21,24 +21,3 @@ enter.onclick = function(){
 	}
 
 }
-
-
-var box1 = document.querySelector("#box1")
-
-box1.onmouseover = function(){
-	box1.innerHTML = "<img src='thenedphotoshop.jpg'>"
-	
-}
-box1.onmouseleave = function() {
-	box1.innerHTML = "<img src='thenedsecond.jpg'>"
-}
-
-
-
-
-
-
-
-
-
-

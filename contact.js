@@ -1,4 +1,5 @@
 var btn = document.querySelector("#btn")
+var enter = document.querySelector("#enter")
 
 btn.onclick = function(){
 	var name = document.querySelector("#name").value
@@ -21,10 +22,29 @@ btn.onclick = function(){
 		return false;
 	}else{
 		result.innerHTML = "Thanks for your message " + name + "<br>" + " We will be in touch soon! <br>"
-		conta.style.display = "none" 
+		contact.style.display = "none" 
+	}
+}
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+}
+
+
+enter.onclick = function(){
+	var email = document.querySelector("#email").value
+
+	if(email == ""){
+		result.innerHTML = "Oops, try again!"
+		return false;
+	}else{
+		result.innerHTML = "Thanks for subscribing!"
+	
 	}
 
 }
-
 
 

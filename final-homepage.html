@@ -7,36 +7,53 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
 </style>
+
 
 </head>
 <body>
 	<div class="top-banner container-fluid">
 		<a class="name-blog" href="#home">TBD</a>
 		<a class="all-posts" href="#allposts">ALL POSTS</a>
-		<a class="book-stay" href="#bookyourstay">SUBSCRIBE</a>
+		<button class="book-stay" onclick="openForm()">SUBSCRIBE</button>
+
+	<div class="form-popup" id="myForm">
+  	<form class="form-container">
+    <div class="subscribe">SUBSCRIBE TO OUR NEWSLETTER</div>
+ 
+    <label for="email"></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <button type="submit" class="btn" id="enter">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    <div class="result">
+    <p id="result"></p>
+	</div>
+  </form>
+</div>
+
+
 	</div>
 
 	<div class="container">
 	<div class="row">
-		<div class="col-4">
+		<div class="col-sm-12 col-md-4" id="box3">
 			<a href="#tulum">
 			<img class="hotel-pics" src="unavidaphotoshop.jpg">
 			<div class="text-country">
 			TULUM<br><p class="text-hotel">UNA VIDA</p></a></div>
 		</div>
 
-		<div class="col-4">
+		<div class="col-sm-12 col-md-4 box2">
 			<a href="#11beach">
 			<img class="hotel-pics" src="11beachphotoshop.jpg">
 			<div class="text-country">
 			NEW YORK<br><p class="text-hotel">11 BEACH ST.</p></a></div>
 		</div>
 
-		<div class="col-4">
-			<div class="hotel-pics">
-			<a href="#thened"></a>
-			</div>
+		<div class="col-sm-12 col-md-4">
+			<div id="box1"><img class="image_on" src="thenedphotoshop.jpg" alt="logo"></div>
 			<div class="text-country"><a href="#thened">
 			LONDON<br><p class="text-hotel">THE NED</p></a></div>
 		</div>
@@ -50,7 +67,7 @@
 	<div class="bottom-nav">
 		<a class="bottom-tabs" href="#home">HOME</a>
 		<a class="bottom-tabs" href="#allposts">POSTS</a>
-		<a class="bottom-tabs" href="#contact">CONTACTS</a>
+		<a class="bottom-tabs" href="#contact">CONTACT</a>
 	</div>
 
 	</div>
