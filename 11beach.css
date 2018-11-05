@@ -190,3 +190,45 @@ div {
 	height: 25px;
 	width: 25px;
 }
+
+@media (max-width: 960px){
+
+.top-banner .all-posts{
+	display: none;
+}
+
+.top-banner .book-stay{
+	display: none;
+}
+
+.map {
+	display: none;
+}
+
+.living{
+	display: none;
+}
+
+.box3{
+	display: none;
+}
+
+.image {
+  vertical-align: middle;
+  height: 250px;
+  width: 100%;
+}
+
+.directions{
+	margin-top: 5px;
+}
+
+.row3{
+	margin-top: 0px;
+}
+
+.review{
+	margin-top: 20px;
+}
+
+}
