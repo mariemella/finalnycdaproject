@@ -253,4 +253,34 @@ div {
 	display: none;
 }
 
+.text-country{
+	display: none;
+}
+.text-hotel{
+	display: none;
+}
+#box1 {
+	background-image: url('tulumwater.jpg');
+	height: 565px;
+	width: 350px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
+#box3 {
+	background-image: url('thenedsecond.jpg');
+	height: 565px;
+	width: 350px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
+#box2 {
+	background-image: url('livingroom3.jpg');
+	height: 565px;
+	width: 350px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	
+}
 	}
