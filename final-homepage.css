@@ -1,6 +1,6 @@
 div {
-	border: 1px solid black;
-	font-family: 'Libre Baskerville', serif;/*
+	/*border: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
 	text-align: center;*/
 	
 }
@@ -28,7 +28,7 @@ div {
 	text-decoration:none !important;
 	color: black !important;
 	position: relative;
-	left: 29px;
+	left: 25px;
 
 }
 
@@ -69,6 +69,12 @@ div {
 
 }
 
+#slogan{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none !important;
+}
 
 .form-popup{
 	display: none;
@@ -87,6 +93,7 @@ div {
 	font-size: 23px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	text-align: center;
 }
 
 .form-container input[type=text]{
@@ -114,7 +121,7 @@ div {
 	display: inline-block;
 }
 
-#result {
+#answer {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 15px;
 
@@ -126,19 +133,57 @@ div {
 }
 
 
-img {
+#box3:hover {
+	background-color: pink;
+	background-image: url('thened.jpg');
+	height: 565px;
+	width: 350px;
+}
+
+#box3 {
+	background-image: url('thenedsecond.jpg');
+	height: 565px;
+	width: 350px;
+	left: 5px;
+}
+
+#box2:hover {
+	background-color: pink;
+	background-image: url('marble.jpg');
+	height: 565px;
+	width: 350px;
+}
+
+#box2 {
+	background-image: url('livingroom3.jpg');
+	height: 565px;
+	width: 340px;
+	display: block;
+	right: 3px;
+	left: 1px;
+	
+}
+
+#box1:hover {
+	background-color: pink;
+	background-image: url('tulum4.jpg');
 	height: 565px;
 	width: 350px;
 }
 
 #box1 {
+	background-image: url('tulumwater.jpg');
 	height: 565px;
 	width: 350px;
+	display: block;
+	right: 3px;
 }
 
 
 .text-country {
- 	padding-top: 30px;
+	position: relative;
+	display: block;
+	top: 600px;
 	padding-bottom: 10px;
  	font-family: 'Libre Baskerville', serif;
 	font-size: 20px !important;
@@ -160,6 +205,7 @@ img {
  }
 
  .text-blog {
+ 	margin-top: 100px;
  	padding-top: 20px;
  	padding-bottom: 20px;
  	font-size: 17px;

@@ -7,33 +7,21 @@ function closeForm() {
 }
 
 
-var enter = document.querySelector("#enter")
+var submit = document.querySelector("#submit")
 
-enter.onclick = function(){
-	var email = document.querySelector("#email").value
+submit.onclick = function(){
+	var mail = document.querySelector("#mail").value
 
-	if(email == ""){
-		result.innerHTML = "Oops, try again!"
+	if(mail == ""){
+		answer.innerHTML = "Oops, try again!"
 		return false;
 	}else{
-		result.innerHTML = "Thanks for subscribing!"
+		answer.innerHTML = "Thanks for subscribing!"
+		return false;
 	
 	}
 
 }
-
-
-var box1 = document.querySelector("#box1")
-
-box1.onmouseover = function(){
-	box1.innerHTML = "<img src='thenedphotoshop.jpg'>"
-	
-}
-box1.onmouseleave = function() {
-	box1.innerHTML = "<img src='thenedsecond.jpg'>"
-}
-
-
 
 
 

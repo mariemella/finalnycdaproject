@@ -25,6 +25,8 @@ btn.onclick = function(){
 		contact.style.display = "none" 
 	}
 }
+
+
 function openForm() {
     document.getElementById("myForm").style.display = "block";
 }
@@ -34,17 +36,18 @@ function closeForm() {
 }
 
 
-enter.onclick = function(){
-	var email = document.querySelector("#email").value
+var submit = document.querySelector("#submit")
 
-	if(email == ""){
-		result.innerHTML = "Oops, try again!"
+submit.onclick = function(){
+	var mail = document.querySelector("#mail").value
+
+	if(mail == ""){
+		answer.innerHTML = "Oops, try again!"
 		return false;
 	}else{
-		result.innerHTML = "Thanks for subscribing!"
+		answer.innerHTML = "Thanks for subscribing!"
+		return false;
 	
 	}
 
 }
-
-

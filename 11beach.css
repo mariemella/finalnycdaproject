@@ -1,8 +1,8 @@
-div {
-	/*border: 1px solid black;*/
+/*div {
+	border: 1px solid black;
 	font-family: 'Libre Baskerville', serif;
 		
-}
+}*/
 
 .container-fluid {
 	margin-top: 100px;
@@ -17,7 +17,15 @@ div {
 	width: 100%;
 	z-index: 2;
 	text-align: center;	
+	font-family: 'Libre Baskerville', serif;
 
+}
+
+#slogan{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none !important;
 }
 
 .top-banner .name-blog {
@@ -31,7 +39,7 @@ div {
 	text-decoration:none !important;
 	color: black !important;
 	position: relative;
-	left: 39px;
+	right: 50px;
 
 }
 
@@ -48,16 +56,7 @@ div {
 
 }
 
-.top-banner .book-stay {
-	float: right;
-	margin-right: 10px;
-	font-size: 17px;
-	font-weight: 700 !important;
-	letter-spacing: 2px;
-	display: inline-block;
-	text-decoration:none !important;
-	color: black !important;
-}
+
 .top-banner .all-posts:hover {
 	text-decoration: none !important;
 	border-bottom: 3px solid black !important;
@@ -70,12 +69,14 @@ div {
 	display: inline-block;
 
 }
+
 .bottom-nav {
  	bottom: 0;
  	width: 100%;
  	padding-top: 50px;
  	padding-bottom: 15px;
  	text-align: center;	
+ 	font-family: 'Lato', sans-serif !important;
  }
 
  .bottom-nav .bottom-tabs {
@@ -151,6 +152,7 @@ div {
 	letter-spacing: 2px;
 	text-align: center;
 	margin-top: 150px;
+	font-family: 'Libre Baskerville', serif;
 
 }
 
@@ -181,6 +183,7 @@ div {
 	letter-spacing: 2px;
 	text-align: center;
 	margin-top: 200px;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .instagram-icon {

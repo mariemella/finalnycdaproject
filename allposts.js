@@ -1,3 +1,4 @@
+
 function openForm() {
     document.getElementById("myForm").style.display = "block";
 }
@@ -7,17 +8,24 @@ function closeForm() {
 }
 
 
-var enter = document.querySelector("#enter")
+var submit = document.querySelector("#submit")
 
-enter.onclick = function(){
-	var email = document.querySelector("#email").value
+submit.onclick = function(){
+	var mail = document.querySelector("#mail").value
 
-	if(email == ""){
-		result.innerHTML = "Oops, try again!"
+	if(mail == ""){
+		answer.innerHTML = "Oops, try again!"
 		return false;
 	}else{
-		result.innerHTML = "Thanks for subscribing!"
+		answer.innerHTML = "Thanks for subscribing!"
+		return false;
 	
 	}
 
 }
+
+var btn = document.querySelector("#btn")
+
+btn.onclick = function(){
+			ad.style.display = "none"
+		}

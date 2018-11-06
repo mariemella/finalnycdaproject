@@ -26,7 +26,7 @@
 	text-decoration:none !important;
 	color: black !important;
 	position: relative;
-	left: 29px;
+	left: 45px;
 
 }
 
@@ -67,6 +67,13 @@
 
 }
 
+#slogan{
+	font-size: 10px;
+	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none !important;
+}
+
 
 .form-popup{
 	display: none;
@@ -85,6 +92,7 @@
 	font-size: 23px;
 	font-weight: bold;
 	letter-spacing: 2px;
+	text-align: center;
 }
 
 .form-container input[type=text]{
@@ -112,11 +120,12 @@
 	display: inline-block;
 }
 
-#result {
+#answer {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 15px;
 
 }
+
 
 .row {
 	margin-top: 100px;
@@ -127,7 +136,6 @@
 	
 }
 
-
 #contact {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 15px;
@@ -137,12 +145,14 @@
 	letter-spacing: 2px;
 }
 
-.result {
+#result {
 	font-size: 15px;
 	font-weight: 700 !important;
-	margin-top: 100px;
+	margin-top: 50px;
 	text-align: center;
 	letter-spacing: 2px;
+	font-family: 'Libre Baskerville', serif;
+	
 }
 
 a {
@@ -192,4 +202,3 @@ a {
 }
 
 
-}
